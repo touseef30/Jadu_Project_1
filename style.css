@@ -1,0 +1,138 @@
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    /* background-color:   #1e1f20;    */
+    background-color: rgb(24, 24, 24);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  background-color:   #191b1f;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+/* Navbar >> Logo */
+.nav_logo{
+    padding-left: 10%;
+    color: antiquewhite;
+    font-family: 'Reem Kufi', sans-serif;
+    text-transform: uppercase;
+    font-size: x-large;
+    
+}
+
+/* Navbar >> Menu */
+.nav_menu{
+    display: flex;
+    padding-right: 20%;
+    list-style-type:none;
+    color: antiquewhite;
+    text-transform: uppercase;
+
+}
+
+/* Navbar >> Menu >> Item */
+.nav_item{
+    padding-right: 20%;
+    font-size: medium;
+}
+
+/* Navbar >> Menu >> Item||Hover */
+.nav_item:hover {
+    color: goldenrod;
+}
+
+/* Description */
+.page_body{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Description >> Intro */
+.intro{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    color: antiquewhite;
+    /* background-color: blueviolet; */
+    padding: 2%;
+}
+
+/* Description >> Intro >> Heading */
+/* .intro_head{
+    
+} */
+
+/* Description >> Intro >> Heading||Name */
+span.name{
+    color: goldenrod;
+}
+
+/* Description >> Intro >> Body */
+.intro_body{
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+/* Description >> Intro >> Links */
+.links{
+    color: antiquewhite;
+    font-size: large;
+}
+
+/* Description >> Image */
+.image{
+    justify-self: end;
+    align-self: center;
+    margin: 2%;
+
+}
+
+/* Description >> Image||profile */
+img.profile{
+    border-radius: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list_item{
+    font-size: larger;
+}
+
+.icons{
+    display: flex;
+    align-items: baseline;
+} 
+
+a{
+    font-size: 48px;
+    color: antiquewhite;
+    padding: 1%;
+}
+
+a:hover{
+    color: goldenrod;
+}
+
+footer{
+    justify-content: center;
+    margin-top: 10%;
+    padding: 2%;
+    display: flex;
+    color: antiquewhite;
+    background-color:   #191b1f;
+}
+
