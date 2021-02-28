@@ -15,6 +15,7 @@ nav {
   background-color:   #191b1f;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
   
 }
@@ -56,6 +57,7 @@ nav {
     display: flex;
     justify-content: space-around;
     font-family: 'Lexend Deca', sans-serif;
+    flex-wrap: wrap;
 }
 
 /* Description >> Intro */
@@ -66,6 +68,7 @@ nav {
     color: antiquewhite;
     /* background-color: blueviolet; */
     padding: 2%;
+    flex-wrap: wrap;
 }
 
 /* Description >> Intro >> Heading */
@@ -106,6 +109,7 @@ img.profile{
 .list{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .list_item{
@@ -115,6 +119,7 @@ img.profile{
 .icons{
     display: flex;
     align-items: baseline;
+    flex-wrap: wrap;
 } 
 
 a{
@@ -129,7 +134,7 @@ a:hover{
 
 footer{
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 2%;
     padding: 2%;
     display: flex;
     color: antiquewhite;
